@@ -3,16 +3,26 @@
   <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <meta content="en-us" http-equiv="Content-Language" />
-    <link href="css/index.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href="css/boggle.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link
+      href="css/index.css"
+      media="screen, projection"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="css/boggle.css"
+      media="screen, projection"
+      rel="stylesheet"
+      type="text/css"
+    />
     <title>Boggle Board</title>
     <script type="text/javascript" src="js/jquery.min.js"></script>
   </head>
   <body>
     <div id="instructions">
       <p>
-        Fill in the letters for the Boggle puzzle you wish to solve,
-        then click <b>Solve</b> or hit Enter.
+        Fill in the letters for the Boggle puzzle you wish to solve, then click
+        <b>Solve</b> or hit Enter.
       </p>
     </div>
     <div id="boggle-panel">
@@ -23,11 +33,8 @@
         <input type="number" id="num-cols" min="2" max="8" value="2" />
         <button id="solve-button">Solve</button>
       </div>
-      <p id="loading-message">
-      Loading dictionary...
-      </p>
-      <div id="board" class="boggle-board">
-      </div>
+      <p id="loading-message">Loading dictionary...</p>
+      <div id="board" class="boggle-board"></div>
     </div>
     <div id="words-panel">
       <p id="num-words"></p>
